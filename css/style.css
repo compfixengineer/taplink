@@ -134,17 +134,31 @@ body{
     border-radius: 5px;
     box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.16);
     background: rgb(255, 255, 255);
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 
 ul{
     margin-top: 0px;
     margin-bottom: 5px;
-    padding-left: 20px;
+    margin-left: -10px;
 }
 
 .button.price{
     background: rgb(76, 117, 163)
+}
+
+.slider{
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.16);
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.arrow-right{
+    transform: rotate(180deg);
 }
