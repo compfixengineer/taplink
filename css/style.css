@@ -130,3 +130,21 @@ body{
     background: #000;
 }
 
+.offer{
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.16);
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+ul{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.button.price{
+    background: rgb(76, 117, 163)
+}
