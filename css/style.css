@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;   
+}
+
+@font-face {
+    font-family: Lucida;
+    src: url(../fonts/lucida-console.ttf);
+}
+
+body{
+    background-color: #F6F6F6;
+    padding-top: 20px;
+}
+
+.page-wrapper{
+    overflow: hidden;
+    max-width: 390px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 10px rgba(96, 95, 95, 0.3);
+    background: rgb(246, 246, 246);
+}
+
+.container{
+    max-width: 300px;
+    margin: auto;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.header{
+    color: #fff;
+    font-family: Lucida;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 145px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px 0px 90px 90px;
+    background: url('../img/bgc-img.jpg'), rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title-text{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user{
+    margin-top: -70px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.16);
+    background: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+.user-avatar{
+    margin-top: -45px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.user-name {
+    margin: 0px 0px 0px 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.user-name__descr{
+    font-weight: 300;
+    margin: 0px;
+    /* padding-bottom: 10px; */
+}
